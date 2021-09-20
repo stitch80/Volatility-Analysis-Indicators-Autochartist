@@ -37,7 +37,7 @@ namespace NinjaTrader.NinjaScript.Indicators
 {
 	public class CI_ExpectedPriceRange : Indicator
 	{
-		private string version = "0.6";
+		private string version = "1.0";
 		private AutochartistPowerStatsXML resultObject;
 		//private HttpClient ApiClient = new HttpClient();
 		private HttpClient ApiClient;
@@ -48,11 +48,11 @@ namespace NinjaTrader.NinjaScript.Indicators
 		private string errorMessage;
 		//private CancellationTokenSource cts = new CancellationTokenSource();
 
-		public CI_ExpectedPriceRange()
-		{
-			VendorLicense("CrystalIndicators", "AutoChartistVolatilityAnalysis", "www.crystalindicators.com",
-				"info@crystalindicators.com", null);
-		}
+		//public CI_ExpectedPriceRange()
+		//{
+		//	VendorLicense("CrystalIndicators", "AutoChartistVolatilityAnalysis", "www.crystalindicators.com",
+		//		"info@crystalindicators.com", null);
+		//}
 
 		protected override void OnStateChange()
 		{

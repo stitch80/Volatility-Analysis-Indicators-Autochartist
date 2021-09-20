@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace NinjaTrader.Custom.Indicators.CIAutochartist
 {
@@ -35,29 +36,54 @@ namespace NinjaTrader.Custom.Indicators.CIAutochartist
         public string symbol { get; set; }
         public string symbolcode { get; set; }
         public string exchange { get; set; }
+
+        [XmlElement(ElementName = "hour0.0")]
         public Hour hour0 { get; set; }
+        [XmlElement(ElementName = "hour1.0")]
         public Hour hour1 { get; set; }
+        [XmlElement(ElementName = "hour2.0")]
         public Hour hour2 { get; set; }
+        [XmlElement(ElementName = "hour3.0")]
         public Hour hour3 { get; set; }
+        [XmlElement(ElementName = "hour4.0")]
         public Hour hour4 { get; set; }
+        [XmlElement(ElementName = "hour5.0")]
         public Hour hour5 { get; set; }
+        [XmlElement(ElementName = "hour6.0")]
         public Hour hour6 { get; set; }
+        [XmlElement(ElementName = "hour7.0")]
         public Hour hour7 { get; set; }
+        [XmlElement(ElementName = "hour8.0")]
         public Hour hour8 { get; set; }
+        [XmlElement(ElementName = "hour9.0")]
         public Hour hour9 { get; set; }
+        [XmlElement(ElementName = "hour10.0")]
         public Hour hour10 { get; set; }
+        [XmlElement(ElementName = "hour11.0")]
         public Hour hour11 { get; set; }
+        [XmlElement(ElementName = "hour12.0")]
         public Hour hour12 { get; set; }
+        [XmlElement(ElementName = "hour13.0")]
         public Hour hour13 { get; set; }
+        [XmlElement(ElementName = "hour14.0")]
         public Hour hour14 { get; set; }
+        [XmlElement(ElementName = "hour15.0")]
         public Hour hour15 { get; set; }
+        [XmlElement(ElementName = "hour16.0")]
         public Hour hour16 { get; set; }
+        [XmlElement(ElementName = "hour17.0")]
         public Hour hour17 { get; set; }
+        [XmlElement(ElementName = "hour18.0")]
         public Hour hour18 { get; set; }
+        [XmlElement(ElementName = "hour19.0")]
         public Hour hour19 { get; set; }
+        [XmlElement(ElementName = "hour20.0")]
         public Hour hour20 { get; set; }
+        [XmlElement(ElementName = "hour21.0")]
         public Hour hour21 { get; set; }
+        [XmlElement(ElementName = "hour22.0")]
         public Hour hour22 { get; set; }
+        [XmlElement(ElementName = "hour23.0")]
         public Hour hour23 { get; set; }
     }
 

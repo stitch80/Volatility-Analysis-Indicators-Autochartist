@@ -34,7 +34,7 @@ namespace NinjaTrader.NinjaScript.Indicators
 {
 	public class CI_PriceMovementPerHour_PerDay : Indicator
 	{
-		private string version = "0.8";
+		private string version = "1.0";
 		private AutochartistPowerStatsXML resultObject;
 		private HttpClient ApiClient;
 		string url;
@@ -51,11 +51,11 @@ namespace NinjaTrader.NinjaScript.Indicators
 
 
 
-		public CI_PriceMovementPerHour_PerDay()
-		{
-			VendorLicense("CrystalIndicators", "AutoChartistVolatilityAnalysis", "www.crystalindicators.com",
-				"info@crystalindicators.com", null);
-		}
+		//public CI_PriceMovementPerHour_PerDay()
+		//{
+		//	VendorLicense("CrystalIndicators", "AutoChartistVolatilityAnalysis", "www.crystalindicators.com",
+		//		"info@crystalindicators.com", null);
+		//}
 
 		protected override void OnStateChange()
 		{
